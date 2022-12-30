@@ -69,9 +69,9 @@ const LeftSidebar = () => {
                             </li>
                         </Link>
                     </ul>
-                    <button className='btn btn-outline hover:text-white-500'>Show More</button>
+                    <button className='btn btn-outline hover:text-white-500 ml-12'>Show More</button>
                     <hr className='my-8 mx-0' />
-                    <div className='text-gray-600 font-semibold my-4'>
+                    <div className='text-gray-600 font-semibold my-4 ml-6'>
                         <span>Human Rights Facilites</span>
                     </div>
                     <ul className='h-screen bg-slate-200'>

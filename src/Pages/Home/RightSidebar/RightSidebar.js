@@ -10,14 +10,14 @@ const RightSidebar = () => {
     return (
         <section className='my-16 w-5/12'>
             <div className='wrapper sticky top-16'>
-                <div className='itemBox-1'>
-                    <div className='text-start px-0 text-gray-500 font-semibold mt-4'>
-                        <span className=''>Do You Know Them ?</span>
+                <div className='itemBox-1 px-8'>
+                    <div className='text-start px-4 text-gray-500 font-semibold mt-4'>
+                        <span className=''>According to your friends ?</span>
                     </div>
 
                     <div className='mainItemBox px-2'>
                         <div className='userBox flex justify-between space-x-4 items-center my-4'>
-                            <div className='userInfoBox flex items-center space-x-2 cursor-pointer'>
+                            <div className='userInfoBox flex items-center cursor-pointer'>
                                 <img className='w-10 h-10 rounded-full' src={suggestionImage1} alt="" />
                                 <span className=''>Lubna Khanom</span>
                             </div>

@@ -14,7 +14,7 @@ const Footer = () => {
                         </div>
                     </div>
                 
-                <div className='text-gray-600'>
+                <div className='text-gray-600 text-center'>
                     <p>Copyright @ Imam Media 2022 All Rights Reserved</p>
                 </div>
             </div>
