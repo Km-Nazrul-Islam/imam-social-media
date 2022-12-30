@@ -4,7 +4,7 @@ import { FaPhotoVideo, FaLocationArrow, FaTags, FaGrin } from 'react-icons/fa';
 
 const PostArea = () => {
     return (
-        <section className='px-10 w-10/12'>
+        <section className='px-10'>
             <div className="top-section my-16 border-2 border-gray-300 rounded-lg p-8">
                 <div className='flex fles-1 space-x-2 items-center'>
                     <img className='w-16 h-16 rounded-full border-2 border-gray-300' src={postImage} alt="" />

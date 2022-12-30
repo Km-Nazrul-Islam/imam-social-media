@@ -8,7 +8,7 @@ import suggestionImage6 from '../../../assets/suggetion_image/student-6.png';
 
 const RightSidebar = () => {
     return (
-        <section className='my-16 w-5/12'>
+        <section className='my-16'>
             <div className='wrapper sticky top-16'>
                 <div className='itemBox-1 px-8'>
                     <div className='text-start px-4 text-gray-500 font-semibold mt-4'>

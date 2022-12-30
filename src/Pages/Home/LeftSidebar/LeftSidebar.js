@@ -10,7 +10,7 @@ import socialActivity5 from '../../../assets/social_activity/social_activity5.pn
 
 const LeftSidebar = () => {
     return (
-        <section className='w-3/12'>
+        <section className='my-16'>
             <div className='left-sidebar bg-slate-200 h-screen my-16 overflow-scroll sticky top-16'>
                 <div className='sidebarWrapper'>
                     <ul className='sidebarList'>

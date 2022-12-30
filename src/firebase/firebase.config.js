@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD3e9B9_JExvB8kLOUqIkznxl6a0jkFfrg",
-    authDomain: "imam-social-media.firebaseapp.com",
-    projectId: "imam-social-media",
-    storageBucket: "imam-social-media.appspot.com",
-    messagingSenderId: "952519605605",
-    appId: "1:952519605605:web:aa9d3daabd9c56fbfd358c"
+    apiKey: process.env.REACT_APP_apiKey,
+    authDomain: process.env.REACT_APP_authDomain,
+    projectId: process.env.REACT_APP_projectId,
+    storageBucket: process.env.REACT_APP_storageBucket,
+    messagingSenderId: process.env.REACT_APP_messagingSenderId,
+    appId: process.env.REACT_APP_appId
 };
 
 // Initialize Firebase
